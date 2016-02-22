@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: #FAFBFB; /* almost white */
+    color: #FFFFFF; /* white*/
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 4px #000066;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+h4 {font-size: 1em;
+    font-style:italic;
+    color:#CC0099;
+    margin: 0px;
+}
+
+h5 {font-size: 1em;
+    color:#000080;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+
+p { text-align: justify;
+    padding: 0px 10px;
+}
+
+iframe {
+				border-style: groove;
+                border-width: 5px;
+                border-color: #CC0099;
+                margin 5px;
+}
+
+footer {
+    color:#000066;
+    text-align:center;
+}
+
+/* link details */
+a:link {color:#FFFFFF; text-decoration:none;}
+a:visited {color:#FFFFFF; text-decoration:none;}
+a:hover {color:#CC0099; text-decoration:none;}
+a:active {color:#CC00FF; text-decoration:none;}
+
+/* style for header menu - button and space - elements of a table*/
+table#menu	{	width: 750px;
+				margin-left: auto;
+                margin-right: auto;
+                border-collapse: collapse;
+}
+
+.menuButton {	border-style: groove;
+				border-width:4px;
+                background-color: #808080;
+                border-color:#000066;
+                text-shadow: 2px 2px #000066;
+                width:135px;
+                text-align: center;
+                font-weight: bold;
+                /*padding: 5px 5px;*/
+}
+.menuSpace {
+				width: 20px;
+}
+
+/* header details - height, color and padding*/
+header {
+    height: 170px;
+    background-image: url("lgrey005.jpg");
+    padding: 10px 0px;  /* top/bottom left/right */
+}
+
+/* define the "wrapper" of the entire page */
+#wrapper {
+    width: 970px;
+    background-image: url("lgrey005.jpg");
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0A052B;
+    margin: 5px auto;  /* a slight top/bottom margin, centered (auto) horizontally */
+    padding: 5px;
+}
+
+
+#vertText {
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+    font-size: 3em;
+    text-align: center;
+    position:relative;
+    color: #000066;
+    text-shadow: 2px 4px #ffffff;
+    top: 250px;
+    left:-400px;
+}
+
+#logo {
+    /*border-style: groove;
+     border-color:#CC0099;*/
+    float: left;
+    box-shadow: 5px 5px 5px #000066;
+}
+
+/*#janet: {text-decoration:none}
+ #mark: {text-decoration:none}
+ #christian: {text-decoration:none}*/
+
+ul#displayInlineList li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+.leftColumn {
+    width: 150px;
+    float: left;
+    min-height: 550px;
+    /*background-color: #808080;*/
+    margin: 5px 5px 5px 0px;  /* top, right, bottom, left */
+    padding: 10px 10px;  /* top/bottom left/right */
+}
+
+.mainColumn {
+    color: #000066;
+    /*width: 767px;*/
+    width: 100%;
+    float: left;
+    /*min-height:550px;*/
+    min-height: 100%
+    border-style: ridge;
+    border-color: #000066;
+    border-width: 4px;
+    background-color: #f0f0f5;
+    margin: 5px 0px;  /* top/bottom left/right */
+    padding: 20px 10px;   /* top/bottom left/right */
+}
+
+.myImages {
+    border-style:ridge;
+    border-width: 4px;
+    border-color: #ff66cc;
+    margin: 0px 10px;
+}
+
+.leftMenu {
+    font-size: 1.5em;
+    /*color: #000066;
+     text-shadow: 2px 3px #ffffff;*/
+    text-shadow: 2px 3px #000066;
+}
+
+.family {
+    height: 266px;
+}
+
+.eFam {
+    height: 200px;
+    vertical-align: middle;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.edCondensed {
+    font-size: .75em;
+    color:black;
+    margin:0px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.condensed {
+    font-size: .85em;
+    color:black;
+    margin:0px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* heading 3 : centered, italic, bold and pink */
+.h3ci {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: italic;
+    color:#cc0099;
+}
+/* heading 3 : centered, bold, and blue (no italic)*/
+.h3c {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.hsImagesLeft {
+    border-style:ridge;
+    border-width: 4px;
+    border-color: #ff66cc;
+    float:left;
+    margin: 10px 10px 0px 0px; /* top right bottom left */
+}
+.hsImagesRight {
+    border-style:ridge;
+    border-width: 4px;
+    border-color: #ff66cc;
+    float:right;
+    margin: 10px 0px 0px 10px;
+}
